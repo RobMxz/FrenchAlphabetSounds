@@ -1,4 +1,4 @@
-# 📥 Descarga de Audios desde HTML
+# 📥 FrenchAplhabetSounds
 
 Este proyecto consta de dos scripts en JavaScript y Python para extraer y descargar archivos de audio desde una página web.
 
@@ -27,8 +27,6 @@ Este script utiliza Puppeteer para leer un archivo HTML, extraer URLs de archivo
    ```
 4. Los enlaces a los archivos de audio se guardarán en output.json.
 
----
-
 ## 🎵 **2. Descargar Archivos de Audio**
 
 Este script en Python descarga los archivos de audio desde las URLs extraídas y las guarda en una carpeta.
@@ -49,11 +47,10 @@ Este script en Python descarga los archivos de audio desde las URLs extraídas y
 2. Asegúrate de tener el archivo `output.json` en el mismo directorio que `main.py`.
 
 3. Ejecuta el script:
+
    ```
    python main.py
    ```
-
----
 
 4. Los archivos de audio se guardarán en la carpeta Sounds.
 
